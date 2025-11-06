@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6eef5;
+    color: #222;
+    line-height: 1.6;
+}
+
+.cont {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #f5f7fb; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    padding: 30px;
+    overflow: hidden;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.cont h3 {
+    color: #27374D;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+header{
+    background-color: #27374D;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    border-bottom: 5px solid #1d2a38; 
+}
+
+header h1{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+#navegacion{
+    background-color: #526D82;
+    border-bottom: 3px solid #27374D;
+    height: 60%;
+}
+
+#navegacion ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#navegacion li{
+    margin: 11px;
+}
+
+#navegacion a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+#navegacion a:hover{
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+#navegacion a.activo{
+    background-color: #27374D;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#body{
+    padding: 30px;
+}
+
+.titulo{
+    color: #27374D;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+#tit p{
+    background: #f4f7fb;         
+    border-top: 2px solid #27374D;      
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 25px 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+.seccion {
+    background: #f4f7fb;         
+    border-bottom: 2px solid #27374D;      
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 25px 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.seccionm {
+    background: #f4f7fb;         
+    border-bottom: 2px solid #27374D;    
+    border-top: 2px solid #27374D;    
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 25px 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.seccionm h3 {
+    color: #27374D;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #bfcde0;
+    padding-bottom: 5px;
+}
+
+.seccionm ul {
+    list-style: disc;
+    margin-left: 25px;
+}
+
+.seccionm li {
+    margin-bottom: 6px;
+    color: #333;
+}
+em {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #444;
+    background: #f9fbfe;
+    border-right: 3px solid #27374D;
+    border-bottom: 3px solid #27374D;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 700px;
+}
+
+.seccion-info{
+    background-color: #eef2f6;
+    border-left: 4px solid #27374D;
+    border-right: 4px solid #27374D;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.seccion-info h3{
+    color: #27374D;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid #b0c4de;
+    padding-bottom: 6px;
+}
+
+.seccion-info ul{
+    margin-left: 20px;
+    list-style: square;
+}
+
+#contenedor-video{
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+    padding-bottom: 20.15%;
+    height: 0;
+    overflow: hidden;
+}
+#contenedor-video iframe{
+    position : absolute;
+    top: 0;
+    transform: translate(-50%);
+    width: 50%;
+    height: 100%;
+    max-width: 1080px;
+    border-radius: 10px;
+    border: 3px solid #27374D;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.imagen-destacada{
+    text-align: center;
+    margin: 20px;
+}
+
+.imagen-destacada img{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #27374D;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform .3s ease;
+}
+
+.imagen-destacada img:hover{
+    transform: scale(1.02);
+}
+
+#imgF{
+    margin-top: 20px;
+}
+
+#imgy{
+margin-top: 20px;
+text-align: right;
+}
+
+#footer{
+    background-color: #27374D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #1d2a38;
+    margin-top: 20px;
+}
